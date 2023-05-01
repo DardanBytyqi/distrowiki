@@ -12,7 +12,7 @@ function Hero() {
             </div>
 
             <div className='flex flex-col gap-5 m-7'>
-                <div>
+                <div>s
                     <h1 className='md:text-5xl text-4xl text-blu font-black'>Pop!_OS</h1>
                     
                 </div>
