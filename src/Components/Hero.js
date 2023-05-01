@@ -5,7 +5,7 @@ import { AiOutlineFire } from 'react-icons/ai'
 function Hero() {
     return(
         <div>
-            <h1 className='flex items-center m-7 text-5xl font-black'><AiOutlineFire /> Nuovo nome</h1>
+            <h1 className='flex items-center m-7 text-5xl font-black'><AiOutlineFire /> Hot</h1>
         <div className="grid md:grid-cols-2 grid-cols-1 md:gap-10 m-7  border border-blu text-white">
             <div className='m-auto'>
                 <img src={PopOS} alt="PopOS" />
