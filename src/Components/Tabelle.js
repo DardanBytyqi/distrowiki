@@ -15,7 +15,7 @@ function Tabelle(){
             {
                 datiTabella1.map((tabella1)=>{
                     return(
-                        <li className="lista p-1 flex justify-between items-center border-b border-giallo">{tabella1.name} <span className="text-xs p-0.5 bg-giallo text-blu rounded-full w-10 text-center">{tabella1.rating}</span></li>
+                        <li key={tabella1.id} className="lista p-1 flex justify-between items-center border-b border-giallo">{tabella1.name} <span className="text-xs p-0.5 bg-giallo text-blu rounded-full w-10 text-center">{tabella1.rating}</span></li>
                     );
                 })
             }
@@ -32,7 +32,7 @@ function Tabelle(){
                         {
                             datiTabella2.map((tabella2) => {
                                 return (
-                                    <li className="lista p-1 flex justify-between items-center border-b border-giallo">{tabella2.name} <span
+                                    <li key={tabella2.id} className="lista p-1 flex justify-between items-center border-b border-giallo">{tabella2.name} <span
                                         className="text-xs p-0.5 bg-giallo text-blu rounded-full w-10 text-center">{tabella2.rating}</span>
                                     </li>
                                 );
